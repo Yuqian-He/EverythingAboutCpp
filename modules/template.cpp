@@ -41,3 +41,4 @@ int main()
 }
 
 //cpp compiler give priority to normal function
+//template will be compilered twice when running, the first time is compiler itself, the second time is instantiate
