@@ -1,24 +1,20 @@
-# Prerequisites
-*.d
-
 # Compiled Object files
 *.slo
 *.lo
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
+# qt files
+*.pro.user*
+.qmake*
+moc/
+moc_*
+ui_*
+# shadow build directories
+build-*
+Makefile
 # Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
 
 # Compiled Static libraries
 *.lai
@@ -26,7 +22,33 @@
 *.a
 *.lib
 
+# Visual Studio Crap
+*.vcproj
+*.vcxproj
+*.sln
+*.user
+*.filters
+
 # Executables
 *.exe
 *.out
+# image files
+*.psd
+
 *.app
+# temp files under linux
+*.~*
+#bzr files
+.bzr/
+#zips and tgz
+*.tgz
+*.zip
+*.tar.gz
+#Cmake
+
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Makefile
+cmake_install.cmake
+install_manifest.txt
