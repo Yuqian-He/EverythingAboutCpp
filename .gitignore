@@ -28,6 +28,7 @@ Makefile
 *.sln
 *.user
 *.filters
+.modules/.vscode
 
 # Executables
 *.exe
