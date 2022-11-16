@@ -28,7 +28,7 @@ Makefile
 *.sln
 *.user
 *.filters
-modules/.vscode/
+.vscode
 
 # Executables
 *.exe
@@ -53,3 +53,5 @@ CMakeScripts
 Makefile
 cmake_install.cmake
 install_manifest.txt
+
+
