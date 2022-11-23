@@ -1,0 +1,3 @@
+Particle.ctor 1 0.00313774
+Emitter.ctor 1 0.00555693
+---

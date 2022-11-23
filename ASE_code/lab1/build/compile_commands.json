@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/s5529663/Desktop/2022/ASE/lecture1/lab1/build",
+  "command": "/opt/rh/gcc-toolset-11/root/usr/bin/g++ -DFMT_HEADER_ONLY=1 -isystem /public/devel/2022/vcpkg/installed/x64-linux/include -g -std=gnu++17 -o CMakeFiles/fmt.dir/hello.cpp.o -c /home/s5529663/Desktop/2022/ASE/lecture1/lab1/hello.cpp",
+  "file": "/home/s5529663/Desktop/2022/ASE/lecture1/lab1/hello.cpp"
+}
+]

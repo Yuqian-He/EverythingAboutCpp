@@ -1,0 +1,57 @@
+Start testing: Nov 03 15:11 GMT
+----------------------------------------------------------
+1/2 Testing: Particle.ctor
+1/2 Test: Particle.ctor
+Command: "/home/s5529663/Desktop/2022/ASE/Particle/build/ParticleTests" "--gtest_filter=Particle.ctor" "--gtest_also_run_disabled_tests"
+Directory: /home/s5529663/Desktop/2022/ASE/Particle/build
+"Particle.ctor" start time: Nov 03 15:11 GMT
+Output:
+----------------------------------------------------------
+Running main() from /public/devel/2022/vcpkg/buildtrees/gtest/src/ase-1.12.0-dae7aa2018.clean/googletest/src/gtest_main.cc
+Note: Google Test filter = Particle.ctor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Particle
+[ RUN      ] Particle.ctor
+[       OK ] Particle.ctor (0 ms)
+[----------] 1 test from Particle (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Particle.ctor" end time: Nov 03 15:11 GMT
+"Particle.ctor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: Emitter.ctor
+2/2 Test: Emitter.ctor
+Command: "/home/s5529663/Desktop/2022/ASE/Particle/build/ParticleTests" "--gtest_filter=Emitter.ctor" "--gtest_also_run_disabled_tests"
+Directory: /home/s5529663/Desktop/2022/ASE/Particle/build
+"Emitter.ctor" start time: Nov 03 15:11 GMT
+Output:
+----------------------------------------------------------
+Running main() from /public/devel/2022/vcpkg/buildtrees/gtest/src/ase-1.12.0-dae7aa2018.clean/googletest/src/gtest_main.cc
+Note: Google Test filter = Emitter.ctor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Emitter
+[ RUN      ] Emitter.ctor
+[       OK ] Emitter.ctor (0 ms)
+[----------] 1 test from Emitter (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Emitter.ctor" end time: Nov 03 15:11 GMT
+"Emitter.ctor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 03 15:11 GMT

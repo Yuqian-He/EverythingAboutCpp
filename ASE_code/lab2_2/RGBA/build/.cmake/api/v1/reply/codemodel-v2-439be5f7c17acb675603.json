@@ -1,0 +1,68 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "RGBA_build",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "RGBA::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RGBA-Debug-f02b277533425afeb096.json",
+					"name" : "RGBA",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RGBATests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RGBATests-Debug-7914d82365fd4936b72f.json",
+					"name" : "RGBATests",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/s5529663/Desktop/2022/ASE/lab2_2/RGBA/build",
+		"source" : "/home/s5529663/Desktop/2022/ASE/lab2_2/RGBA"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/s5529663/Desktop/2022/ASE/lab2_2/RGBA/build",
+  "command": "/opt/rh/gcc-toolset-11/root/usr/bin/g++ -I../include -g -std=gnu++17 -o CMakeFiles/RGBA.dir/src/main.cpp.o -c /home/s5529663/Desktop/2022/ASE/lab2_2/RGBA/src/main.cpp",
+  "file": "/home/s5529663/Desktop/2022/ASE/lab2_2/RGBA/src/main.cpp"
+},
+{
+  "directory": "/home/s5529663/Desktop/2022/ASE/lab2_2/RGBA/build",
+  "command": "/opt/rh/gcc-toolset-11/root/usr/bin/g++ -I../include -isystem /public/devel/2022/vcpkg/installed/x64-linux/include -g -std=gnu++17 -o CMakeFiles/RGBATests.dir/tests/RGBATests.cpp.o -c /home/s5529663/Desktop/2022/ASE/lab2_2/RGBA/tests/RGBATests.cpp",
+  "file": "/home/s5529663/Desktop/2022/ASE/lab2_2/RGBA/tests/RGBATests.cpp"
+}
+]

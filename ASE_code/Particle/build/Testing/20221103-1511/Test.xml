@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20221103-1511-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.20.2"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="w11916"
+	OSRelease="4.18.0-348.el8.x86_64"
+	OSVersion="#1 SMP Mon Oct 4 12:17:22 EDT 2021"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="158"
+	ProcessorCacheSize="12288"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="32767"
+	TotalPhysicalMemory="31989"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3200"
+	>
+	<Testing>
+		<StartDateTime>Nov 03 15:11 GMT</StartDateTime>
+		<StartTestTime>1667488299</StartTestTime>
+		<TestList>
+			<Test>./Particle.ctor</Test>
+			<Test>./Emitter.ctor</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>Particle.ctor</Name>
+			<Path>.</Path>
+			<FullName>./Particle.ctor</FullName>
+			<FullCommandLine>/home/s5529663/Desktop/2022/ASE/Particle/build/ParticleTests "--gtest_filter=Particle.ctor" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00313774</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/s5529663/Desktop/2022/ASE/Particle/build/ParticleTests "--gtest_filter=Particle.ctor" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkE9rwzAMxe/+FDo2h9hJLhuDHgYdPQy6km6nEIbrqMHMsYOtZF9/+dOFNTC2dzJ+P0lPyjtrta2hkdpuIrh414Bou7PRSlTYoxFZkmWiV+1HLc6dNhV5xCBqwkAieCVkwDjlacaTuJJ4J2WWpPdcGZRW1M7VBhd0KnofR3Gl2MERPsB+QuB1cOCiDaGHLRylJz204IqcZ8V2UQn5NXAKNJWMga/v0GlCzop4UQl7487SzD7aXntnG7QDixR37Qr+2fM7AisgfzvApHIdbP6Gl+e1BZsEmhD93X4GgRxJE7H/ZSeUPq7cp729zG8XAS8tv50zBD8+nk5Pu3GnmeXsC+w4pIU=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Emitter.ctor</Name>
+			<Path>.</Path>
+			<FullName>./Emitter.ctor</FullName>
+			<FullCommandLine>/home/s5529663/Desktop/2022/ASE/Particle/build/ParticleTests "--gtest_filter=Emitter.ctor" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00555692</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/s5529663/Desktop/2022/ASE/Particle/build/ParticleTests "--gtest_filter=Emitter.ctor" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkE9LxDAQxe/5FHPcHpq0vSjCHgSXPQirdPVUimTT2RJMk5JM69e3/yhuQfSdhrzfzLxM3lmrbQ2N1HYXwdW7BkTbXYxWosIejciSLBO9aj9rcem0qcgjBlETBhLBKyEDxilPM57ElcQ7KbMkvefKoLSidq42uKJT08e4iivFTo7wAY4TAm+DA1dtCD3s4dBoGiquyHlW7FeVkC95U6CpY8y71KHThJwV8aoSjsZdpJl9tL32zjZoBxYp7toN/HPmkoAVkL+fYFK5iTW/wsvzxoFdAk2I/pw9c0COpInY/3ITSh9X7sveXuW3a4CXlt/uGWK/Pp7Ph6fxQzPL2Td74qLD====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Nov 03 15:11 GMT</EndDateTime>
+		<EndTestTime>1667488299</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
