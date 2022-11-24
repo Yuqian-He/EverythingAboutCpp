@@ -1,0 +1,12 @@
+# ninja log v5
+887	5721	1669287170	ImageTests	c573bcbbd2287373
+19	939	1669233111	CMakeFiles/ImageTests.dir/tests/RGBATests.cpp.o	f14bba4e404d81f
+19	44	1669233110	CMakeFiles/Image.dir/src/main.cpp.o	dd9767ed2f756a47
+887	5721	1669287170	ImageTests[1]_tests.cmake	c573bcbbd2287373
+6	887	1669287165	CMakeFiles/ImageTests.dir/tests/ImageTests.cpp.o	c9782cdc64571a7c
+45	1588	1669285423	CMakeFiles/Image.dir/src/Image.cpp.o	ca4db98caec6c336
+13	1531	1669286985	CMakeFiles/ImageTests.dir/src/Image.cpp.o	a6362e215395d500
+1588	6952	1669285428	Image	bbe25b5257512e1c
+13	908	1669287182	CMakeFiles/ImageTests.dir/tests/ImageTests.cpp.o	c9782cdc64571a7c
+908	5970	1669287187	ImageTests	c573bcbbd2287373
+908	5970	1669287187	ImageTests[1]_tests.cmake	c573bcbbd2287373

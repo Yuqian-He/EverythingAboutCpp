@@ -1,6 +1,7 @@
 #include<iostream>
 #include"Image.h"
 #include<OpenImageIO/imageio.h>
+#include<cstring>
 
 Image::Image(size_t _w,size_t _h):m_width{_w},m_height{_h}
 {
@@ -29,7 +30,12 @@ size_t Image::getHeight() const
 
 RGBA Image::getPixel(size_t _x, size_t _y) const
 {
-    return m_pixels[0];
+    return m_pixels[m_width*(_x)+_y];
+}
+
+RGBA Image::setPixel(size_t _x, size_t _y,unsigned char _r, unsigned char _g, unsigned char _b, unsigned char _a) const
+{
+    m_pixels[m_width*(_x)+_y]=RGBA(_r,_g,_b,_a);
 }
 
 bool Image::save(std::string_view _fname) const
@@ -46,4 +52,16 @@ bool Image::save(std::string_view _fname) const
     success = out->write_image(TypeDesc::UINT8,m_pixels.get());
     success = out->close();
     return success;
+}
+
+void Image::clear(unsigned char _r, unsigned char _g, unsigned char _b, unsigned char _a)
+{
+    auto p=RGBA(_r,_g,_b,_a);
+    
+    for(size_t i=0; i<m_width*m_height; i++)
+    {
+        m_pixels[i]=p;
+    }       
+    
+    //memset(&m_pixels[0],p.pixel,sizeof(uint32_t)*m_width*m_height);
 }

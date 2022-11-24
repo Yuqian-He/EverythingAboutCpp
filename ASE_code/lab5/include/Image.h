@@ -15,7 +15,9 @@ public:
     size_t getWidth() const; //to guarantee width is read only 
     size_t getHeight() const; //accessors
     RGBA getPixel(size_t _x, size_t _y) const;
+    RGBA setPixel(size_t _x, size_t _y,unsigned char _r, unsigned char _g, unsigned char _b, unsigned char _a = 255) const;
     bool save(std::string_view _fname) const;
+    void clear(unsigned char _r, unsigned char _g, unsigned char _b, unsigned char _a = 255);
 
 private:
     size_t m_width=0;

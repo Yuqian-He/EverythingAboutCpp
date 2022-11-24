@@ -1,0 +1,68 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Image_build",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Image::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Image-Debug-99ec9b1d480939175843.json",
+					"name" : "Image",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ImageTests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ImageTests-Debug-d3844c4e3eb4a680c525.json",
+					"name" : "ImageTests",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab5/build",
+		"source" : "/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab5"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
