@@ -30,12 +30,12 @@ size_t Image::getHeight() const
 
 RGBA Image::getPixel(size_t _x, size_t _y) const
 {
-    return m_pixels[m_width*(_x)+_y];
+    return m_pixels[m_width*(_y)+_x];
 }
 
 RGBA Image::setPixel(size_t _x, size_t _y,unsigned char _r, unsigned char _g, unsigned char _b, unsigned char _a) const
 {
-    m_pixels[m_width*(_x)+_y]=RGBA(_r,_g,_b,_a);
+    m_pixels[m_width*(_y)+_x]=RGBA(_r,_g,_b,_a);
 }
 
 bool Image::save(std::string_view _fname) const
