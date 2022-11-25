@@ -32,7 +32,7 @@ void Walker::randomImageSeed()
     //set the random position of the pixels
     m_xRand=std::uniform_int_distribution<>(1,m_map->width()-1);
     m_yRand=std::uniform_int_distribution<>(1,m_map->height()-1);
-    m_map->setPixel(m_xRand(g_rd),m_yRand(g_rd),255,0,0,255);
+    m_map->setPixel(m_xRand(g_rd),m_yRand(g_rd),0,0,0,0);
 
 }
 
@@ -44,7 +44,7 @@ void Walker::resetStart()
     std::cout<<"New Start"<<m_xpos<<' '<<m_ypos<<'\n';
 }
 
-void Walker::getCentrePoint()
+void Walker::getCentrePoint(Image* image)
 {
     std::cout<<"begin get cenre\n";
     for(int x = 0; x<= m_map->width();x++)
@@ -52,8 +52,8 @@ void Walker::getCentrePoint()
            for(int y = 0; y<= m_map->height();y++)
            {
                auto rgba=m_map->getPixel(x,y);
-               std::cout<<rgba.a<<" "<<rgba.b<<'\n';
-               if(rgba.r == 255 && rgba.b == 0 && rgba.g == 0 && rgba.a == 255)
+               std::cout<<std::to_string(rgba.r)<<" "<<std::to_string(rgba.g)<<" "<<std::to_string(rgba.b)<<" "<<std::to_string(rgba.a)<<'\n';
+               if(static_cast<int>(rgba.r) == 0 && static_cast<int>(rgba.b) == 0 && static_cast<int>(rgba.g) == 0 && rgba.a == 0)
                {
                    walk(x,y);
                    std::cout<<" get one point "<<x<<" "<<y<<'\n';

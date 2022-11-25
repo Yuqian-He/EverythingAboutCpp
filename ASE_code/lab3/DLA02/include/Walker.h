@@ -14,7 +14,7 @@ public:
     void randomImageSeed();//init the color to the seed
     void resetStart();
     void walk(int _x, int _y);
-    void getCentrePoint();
+    void getCentrePoint(Image* image);
 
 
 private:

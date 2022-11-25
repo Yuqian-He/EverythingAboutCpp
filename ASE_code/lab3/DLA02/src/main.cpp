@@ -14,25 +14,26 @@ int main()
     }
 
 //generate 100 sequence
-    for(int i=0; i<10; i++)
-    {
+    //for(int i=0; i<10; i++)
+    //{
         std::cout<<"generate 10 sequence\n";
-        /*
-        if(w.walk()==true)//if the next one step is successful
-        {
-            w.saveImage(fmt::format("sim.{:04d}.tiff",i));//generate sequence
-        }
-        w.resetStart();//then regenerate it
-        */
+        
+        // if(w.walk()==true)//if the next one step is successful
+        // {
+        //     w.saveImage(fmt::format("sim.{:04d}.tiff",i));//generate sequence
+        // }
+        // w.resetStart();//then regenerate it
+        
 
        //getPixel and draw walk
-       w.getCentrePoint();
+       w.getCentrePoint(w.m_map);
 
 
        w.saveImage(fmt::format("sim.{:04d}.tiff",i));
 
-    }
+    //}
 
-    //w.saveImage("test.jpg");
+
+    w.saveImage("test.jpg");
     return EXIT_SUCCESS;
 }
